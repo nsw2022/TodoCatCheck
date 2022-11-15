@@ -17,7 +17,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:titleTextColor="@color/black"
-            app:layout_scrollFlags="scroll"/>
+            app:layout_scrollFlags="scroll"
+            android:theme="@style/ToolbarTheme"/>
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -47,7 +48,8 @@
                 android:hint="일정 제목을 입력하세요"
                 android:textSize="12sp"
                 android:padding="18dp"
-                android:inputType="text"/>
+                android:inputType="text"
+                android:fontFamily="@font/bmjua"/>
 
             <TextView
                 android:layout_width="wrap_content"

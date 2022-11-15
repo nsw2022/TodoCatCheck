@@ -22,6 +22,10 @@
 
     </style>
 
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:fontFamily">@font/bmjua</item>
+    </style>
+
 
     <!-- EditActivity 만의 테마스타일 -->
     <style name="EditActivityTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
