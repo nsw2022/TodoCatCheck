@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brand"
+    tools:context=".IntroActivity">
+
+    <!--
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/bmjua"
+        android:text="~체크했냥~"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+        -->
+    <ImageView
+        android:id="@+id/iv_catmini"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/catpink" />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_below="@+id/iv_catmini"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cat" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civ_profile"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/et_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/profle" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/bg_edit_name"
+        android:fontFamily="@font/bmjua"
+        android:gravity="center"
+        android:hint="당신의 이름을 입력하세요"
+        android:padding="16dp"
+        android:textSize="12sp"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="시작하기" />
+
+
+</RelativeLayout>
